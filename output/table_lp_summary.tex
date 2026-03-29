@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Local Projection Summary Statistics and Joint Significance Tests}
+\label{tab:lp_summary}
+\begin{tabular}{l cccc}
+\toprule
+ & \multicolumn{2}{c}{\textbf{Experiment 1}} & \multicolumn{2}{c}{\textbf{Experiment 2}} \\
+ & \multicolumn{2}{c}{Inversion Dummy} & \multicolumn{2}{c}{1pp YC Decline} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & \textbf{Model 1} & \textbf{Model 4} & \textbf{Model 1} & \textbf{Model 4} \\
+ & Full Sample & Pre-2020 & Full Sample & Pre-2020 \\
+\midrule
+Observations & 487 & 453 & 487 & 453 \\
+Horizons (h=1--36) & 36 & 36 & 36 & 36 \\
+BIC-selected lags & 2 & 2 & 2 & 2 \\
+\midrule
+\textit{Joint significance test:} & & & & \\
+$\chi^2$ statistic & 64.833 & 72.939 & 18.653 & 45.504 \\
+Degrees of freedom & 36 & 36 & 36 & 36 \\
+Joint p-value & 0.002 & 0.000*** & 0.992 & 0.133 \\
+\midrule
+\multicolumn{5}{l}{\textit{Notes:} HC1 robust SEs. Model 1: full sample with COVID dummy.} \\
+\multicolumn{5}{l}{Model 4: pre-2020 sample. Joint test: $\chi^2=\sum z_h^2$, $\chi^2(36)$ under H$_0$.} \\
+\multicolumn{5}{l}{h=0 excluded from joint test (Cholesky impact artifact).} \\
+\bottomrule
+\end{tabular}
+\end{table}

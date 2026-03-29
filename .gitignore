@@ -1,0 +1,37 @@
+# R
+.RData
+.Rhistory
+.Rproj.user
+.Rapp.history
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Output files (if you don't want to version them)
+# Uncomment the line below if you want to exclude output folder
+# output/
